@@ -12,7 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Calculate"></activity>
+        <activity android:name=".FromInput"></activity>
+        <activity android:name=".QQLoginPage1" />
+        <activity android:name=".BlossomImage" />
+        <activity android:name=".QQLoginPage" />
+        <activity android:name=".Calculate" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

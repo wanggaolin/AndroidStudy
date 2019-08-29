@@ -9,7 +9,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="计算器"
-
         />
-
+    <Button
+        android:id="@+id/qq_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QQ登录1"
+        />
+    <Button
+        android:id="@+id/qq_login1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QQ登录2"
+        />
+    <Button
+        android:id="@+id/form_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From组件选项"
+        />
+    <Button
+        android:id="@+id/blossom_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="梅花布局"
+        />
 </LinearLayout>
