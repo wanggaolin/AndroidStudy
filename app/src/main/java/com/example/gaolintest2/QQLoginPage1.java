@@ -2,16 +2,19 @@ package com.example.gaolintest2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class QQLoginPage1 extends AppCompatActivity {
 
     private Button butSubmit;
+    private TextView butRegister;
     private EditText qq_number,qq_pwd;
 
     @Override
@@ -36,11 +39,20 @@ public class QQLoginPage1 extends AppCompatActivity {
                 }
             }
         });
+
+        butRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(QQLoginPage1.this,QQRegister.class);
+                startActivity(intent);
+            }
+        });
     }
 
     void initview(){
         butSubmit = (Button) findViewById(R.id.submit);
         qq_number = (EditText) findViewById(R.id.qq_number);
         qq_pwd = (EditText) findViewById(R.id.qq_pwd);
+        butRegister = (TextView) findViewById(R.id.qq_login_register);
     }
 }

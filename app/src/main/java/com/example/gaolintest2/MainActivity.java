@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     private Button ButtonQQLogin1;
     private Button ButtonFormInput;
     private Button ButtonBlossom;
+    private Button ButtonQQRegister;
+    private Button Buttonanswer_system;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,6 +67,22 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ButtonQQRegister = (Button) findViewById(R.id.qq_register);
+        ButtonQQRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,QQRegister.class);
+                startActivity(intent);
+            }
+        });
 
+        Buttonanswer_system = (Button) findViewById(R.id.index_answer_system);
+        Buttonanswer_system.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,AnswerSystem.class);
+                startActivity(intent);
+            }
+        });
     }
 }

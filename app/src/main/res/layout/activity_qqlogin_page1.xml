@@ -81,6 +81,7 @@
         android:layout_marginLeft="10dp"
         >
         <TextView
+            android:id="@+id/qq_login_register"
             android:layout_height="30dp"
             android:layout_width="match_parent"
             android:text="没有账号?立即注册"

@@ -23,6 +23,12 @@
         android:text="QQ登录2"
         />
     <Button
+        android:id="@+id/qq_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QQ用户注册"
+        />
+    <Button
         android:id="@+id/form_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,4 +40,10 @@
         android:layout_height="wrap_content"
         android:text="梅花布局"
         />
+    <Button
+        android:id="@+id/index_answer_system"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="答题系统"/>
+
 </LinearLayout>

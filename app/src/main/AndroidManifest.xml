@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FromInput"></activity>
+        <activity android:name=".AnswerSystem"></activity>
+        <activity android:name=".QQRegister" />
+        <activity android:name=".FromInput" />
         <activity android:name=".QQLoginPage1" />
         <activity android:name=".BlossomImage" />
         <activity android:name=".QQLoginPage" />

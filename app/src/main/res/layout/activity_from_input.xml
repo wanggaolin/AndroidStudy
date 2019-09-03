@@ -2,6 +2,63 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择你的文化程度："
+        />
 
+    <RadioGroup
+        android:id="@+id/rad"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/radbig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="大专"
+            />
+        <RadioButton
+            android:id="@+id/radben"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本科"
+            />
+
+        <RadioButton
+            android:id="@+id/radyan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "研究生"
+            />
+
+    </RadioGroup>
+
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="请给本软件打分:"
+
+        />
+    <RatingBar
+        android:id="@+id/pingjia1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.1"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        />
+    <RatingBar
+        android:id="@+id/pingjia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stepSize="0.1"
+        style="@style/myRadingStyle"
+        />
 </LinearLayout>

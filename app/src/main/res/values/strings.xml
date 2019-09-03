@@ -3,4 +3,16 @@
     <string name="tv_test1">高哥，你好１２３１２３</string>
     <string name="qq_login_success">登录成功</string>
     <string name="qq_login_fail">登录失败</string>
+
+    <string-array name="shengfen_arrary">
+        <item>山西省</item>
+        <item>北京市</item>
+        <item>上海市</item>
+
+    </string-array>
+    <string-array name="city_arrary">
+        <item>驻马店</item>
+        <item>南京</item>
+        <item>合肥</item>
+    </string-array>
 </resources>
